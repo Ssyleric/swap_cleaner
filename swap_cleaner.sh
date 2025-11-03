@@ -5,7 +5,7 @@
 set -euo pipefail
 
 # --- Config -------------------------------------------------------------------
-WEBHOOK="https://discord.com/api/webhooks/1237668309856686090/xqN9G2ZtCkNKuiivng2kEMXLUY7Zx3_RK2w1Y4TCgVgPcc4M5ZYN7QStwHzyp7dEIqrb"
+WEBHOOK="https://discord.com/api/webhooks/12345678900987865432/sahogfuhwsaoghowpishagnopwisghjpiwrjgwpiqjgknvdsoag
 THRESHOLD=${THRESHOLD:-90}        # % de swap utilisé (override possible via env)
 CHECK_EVERY_MIN=${CHECK_EVERY_MIN:-10}  # fréquence du cron en minutes
 DURATION_MIN=${DURATION_MIN:-120}       # durée continue requise au-dessus du seuil
